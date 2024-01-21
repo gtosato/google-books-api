@@ -1,0 +1,24 @@
+.image {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #D4B996FF;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+    transition: .2s;
+
+    &:hover {
+        transform: scale(0.9);
+        background-color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+    }
+}
+
+.cardInfo {
+    overflow: hidden;
+}
