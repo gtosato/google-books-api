@@ -20,7 +20,6 @@ const Header = ({ setSearchTerm }) => {
 
       <form onSubmit={handleSubmit}>
         <div className={styles.search}>
-          <label className={styles.textboxLabel}>Find a Book</label>
           <input
             type="text"
             name="searchBox"
