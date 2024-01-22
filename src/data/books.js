@@ -1,5 +1,6 @@
 export const getBooks = async ({ searchTerm }) => {
-  const apiKey = process.env.REACT_APP_API_KEY;
+  // const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = "";
 
   const response = await fetch(
     `https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&maxResults=40&key=${apiKey}`
