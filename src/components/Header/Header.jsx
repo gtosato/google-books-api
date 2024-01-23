@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./Header.module.scss";
-import logo from "../../assets/google_books_logo.png";
+import logo from "../../assets/google_books_logo2.png";
 
 const Header = ({ setSearchTerm }) => {
   const [userInput, setUserInput] = useState("");
