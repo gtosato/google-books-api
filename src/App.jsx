@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header setSearchTerm={setSearchTerm} />
-      <CardList searchTerm={searchTerm} />
+      <CardList searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
     </>
   );
 }

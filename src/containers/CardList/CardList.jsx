@@ -3,7 +3,7 @@ import { getBooks } from "../../data/books";
 import { useState, useEffect } from "react";
 import styles from "./CardList.module.scss";
 
-const CardList = ({ searchTerm }) => {
+const CardList = ({ searchTerm, setSearchTerm }) => {
   const [bookResults, setBookResults] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -11,8 +11,10 @@ const CardList = ({ searchTerm }) => {
     setLoading(true);
     const fetchBooks = async () => {
       const results = await getBooks({ searchTerm });
+
       setBookResults(results);
       setLoading(false);
+
       // console.log(results, "BookResults");
     };
 
