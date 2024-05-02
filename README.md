@@ -13,7 +13,7 @@ https://stellular-baklava-426ffb.netlify.app/
 
 ## Outline
 
-This project uses both REACT and Asynchronous programming.
+This project uses REACT and Asynchronous programming.
 The user is able to search for a book inside the Google Books database and is then able to get more details about a certain title.
 
 ## MVP
